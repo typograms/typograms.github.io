@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'MetricWeb';
+  src: url("fonts/MetricWeb-Regular.eot");
+  /* IE9 compat */
+  src: url("fonts/MetricWeb-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/hps/MetricWeb-Regular.woff") format("-woff.woff"), url("fonts/MetricWeb-Regular.ttf") format("truetype");
+  /*iOS, Android, Safari*/
+  font-weight: normal;
+  font-style: normal; }
+ 
+ @font-face {
+  font-family: 'MetricWeb';
+  src: url("fonts/MetricWeb-Semibold.eot");
+  /* IE9 compat */
+  src: url("fonts/MetricWeb-Semibold.eot?#iefix") format("embedded-opentype"), url("fonts/hps/MetricWeb-Semibold.woff") format("-woff.woff"), url("fonts/MetricWeb-Semibold.ttf") format("truetype");
+  /*iOS, Android, Safari*/
+  font-weight: bold;
+  font-style: normal; }
+  
+@font-face {
+  font-family: 'MetricWeb';
+  src: url("fonts/MetricWeb-Bold.eot");
+  /* IE9 compat */
+  src: url("fonts/MetricWeb-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/hps/MetricWeb-Bold.woff") format("-woff.woff"), url("fonts/MetricWeb-Bold.ttf") format("truetype");
+  /*iOS, Android, Safari*/
+  font-weight: 600;
+  font-style: normal; }
+  
+  @font-face {
+  font-family: 'MetricWeb';
+  src: url("fonts/MetricWeb-Light.eot");
+  /* IE9 compat */
+  src: url("fonts/MetricWeb-Light.eot?#iefix") format("embedded-opentype"), url("fonts/hps/MetricWeb-Light.woff") format("-woff.woff"), url("fonts/MetricWeb-Light.ttf") format("truetype");
+  /*iOS, Android, Safari*/
+  font-weight: 300;
+  font-style: normal; }
+  
+  @font-face {
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 300;
+        src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url(https://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGPS42wKzre0cxmO5m5GyTsY.ttf) format("truetype")
+        }
+        
+@font-face {
+    font-family:'Source Sans Pro';
+    font-style:normal;
+    font-weight:400;
+    src:local("Source Sans Pro"),local("SourceSansPro-Regular"),url(https://fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlEY6Fu39Tt9XkmtSosaMoEA.ttf) format("truetype")
+}
+
+@font-face {
+    font-family:'Source Sans Pro';
+    font-style:normal;
+    font-weight:700;
+    src:local("Source Sans Pro Bold"),local("SourceSansPro-Bold"),url(https://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGLlcMrNrsnL9dgADnXgYJjs.ttf) format("truetype")
+}
+    
+@font-face {
+    font-family:'Source Sans Pro';
+    font-style:italic;
+    font-weight:400;
+    src:local("Source Sans Pro Italic"),local("SourceSansPro-It"),url(https://fonts.gstatic.com/s/sourcesanspro/v9/M2Jd71oPJhLKp0zdtTvoMzpKUtbt71woJ25xl7KOGD0.ttf) format("truetype")
+}
