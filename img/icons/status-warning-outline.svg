@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
-    <title>status-warning-outline</title>
-    <desc>Created with Sketch.</desc>
-    <g id="status-warning-outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
-        <path d="M12,3 L22,21 L2,21 L12,3 Z M12,9 L12,15 M12,16 L12,18" id="Group" stroke="#000000" stroke-width="2"></path>
-    </g>
-</svg>

@@ -3,897 +3,1165 @@
 
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title></title>
   <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-  <!--[if lte IE 9]>
+  <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-  <div class="shell dashboard-bg">
-    <div class="wrap">
-      <div class="left-nav inverted">
-        <div class="olh-panel">
+  <!-- Add your site or application content here -->
+  <div class="shell">
+    <header class="page-header">
+      <div class="primary-header">
+        <div class="row">
+          <div class="col-4">
+          <a href="#" class="logo">
+          <img src="img/logo.svg" alt="logo">
+          </a>
+          </div>
 
-          <header class="app-header">
-            <h2>
-              <span class="inline-icon">
-                <?php echo file_get_contents("img/icons/page-help.svg"); ?>
-              </span>
-              Help on this page
-            </h2>
-            <a class="close-help" href="#">
-              <?php echo file_get_contents("img/icons/close.svg"); ?>
-            </a>
-          </header>
-
-          <div class="olh-wrap">
-            <div class="olh-intro">
-            <h3>
-                  <span class="page-name">Dashboard</span>
-              </h3>
-              <p>
-                Dashboard gives you an overview of all the important aspects of your StoreEasy system. You can get health status of system componenets, analytical overview of usage, performance and more.
-              </p>
-            </div>
-
-            <div class="olh-search">
+          <div class="col-8">
+            <nav class="primary-nav">
               
-            </div>
-            <div class="olh-accordion">
-              
-              <ul class="accordion">
-                <li>
-                  <a class="toggle" href="javascript:void(0);">Search
-                    <span class="toggle-icon">
-                      <?php echo file_get_contents("img/icons/form-down.svg"); ?>
-                    </span>
-                  </a>
-
-                    <div class="inner">
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus placerat fringilla. Duis a elit et dolor laoreet volutpat. Aliquam ultrices mauris id mattis imperdiet. Aenean cursus ultrices justo et varius. Suspendisse aliquam orci id dui dapibus
-                          blandit. In hac habitasse platea dictumst. Sed risus velit, pellentesque eu enim ac, ultricies pretium felis.
-                        </p>
-                      </div>
-
-                </li>
-
-                <li>
-                  <a class="toggle" href="javascript:void(0);">Navigation
-                    <span class="toggle-icon">
-                      <?php echo file_get_contents("img/icons/form-down.svg"); ?>
-                    </span>
-                  </a>
-
-                    <div class="inner">
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus placerat fringilla. Duis a elit et dolor laoreet volutpat. Aliquam ultrices mauris id mattis imperdiet. Aenean cursus ultrices justo et varius. Suspendisse aliquam orci id dui dapibus
-                          blandit. In hac habitasse platea dictumst. Sed risus velit, pellentesque eu enim ac, ultricies pretium felis.
-                        </p>
-                      </div>
-
-
-                </li>
-
-                <li>
-                  <a class="toggle" href="javascript:void(0);">Card - System Health
-                    <span class="toggle-icon">
-                      <?php echo file_get_contents("img/icons/form-down.svg"); ?>
-                    </span>
-                  </a>
-                    <div class="inner">
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus placerat fringilla. Duis a elit et dolor laoreet volutpat. Aliquam ultrices mauris id mattis imperdiet. Aenean cursus ultrices justo et varius. Suspendisse aliquam orci id dui dapibus
-                          blandit. In hac habitasse platea dictumst. Sed risus velit, pellentesque eu enim ac, ultricies pretium felis.
-                        </p>
-                      </div>
-                </li>
-
-                <li>
-                  <a class="toggle" href="javascript:void(0);">Card - Storage Utilization
-                    <span class="toggle-icon">
-                      <?php echo file_get_contents("img/icons/form-down.svg"); ?>
-                    </span>
-                  </a>
-                  <div class="inner">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus placerat fringilla. Duis a elit et dolor laoreet volutpat. Aliquam ultrices mauris id mattis imperdiet. Aenean cursus ultrices justo et varius. Suspendisse aliquam orci id dui dapibus
-                      blandit. In hac habitasse platea dictumst. Sed risus velit, pellentesque eu enim ac, ultricies pretium felis.
-                    </p>
-                  </div>
-                </li>
-
-                <li>
-                  <a class="toggle" href="javascript:void(0);">Card - Performance
-                    <span class="toggle-icon">
-                      <?php echo file_get_contents("img/icons/form-down.svg"); ?>
-                    </span>
-                  </a>
-                  <div class="inner">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus placerat fringilla. Duis a elit et dolor laoreet volutpat. Aliquam ultrices mauris id mattis imperdiet. Aenean cursus ultrices justo et varius. Suspendisse aliquam orci id dui dapibus
-                      blandit. In hac habitasse platea dictumst. Sed risus velit, pellentesque eu enim ac, ultricies pretium felis.
-                    </p>
-                  </div>
-
-                </li>
-
-                <li>
-                  <a class="toggle" href="javascript:void(0);">Card - Recent Activity
-                    <span class="toggle-icon">
-                      <?php echo file_get_contents("img/icons/form-down.svg"); ?>
-                    </span>
-                  </a>
-
-                  <div class="inner">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus placerat fringilla. Duis a elit et dolor laoreet volutpat. Aliquam ultrices mauris id mattis imperdiet. Aenean cursus ultrices justo et varius. Suspendisse aliquam orci id dui dapibus
-                      blandit. In hac habitasse platea dictumst. Sed risus velit, pellentesque eu enim ac, ultricies pretium felis.
-                    </p>
-                  </div>
-
-                </li>
-
-
-                <li>
-                  <a class="toggle" href="javascript:void(0);">Card - Quick Settings
-                    <span class="toggle-icon">
-                      <?php echo file_get_contents("img/icons/form-down.svg"); ?>
-                    </span>
-                  </a>
-
-                  <div class="inner">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus placerat fringilla. Duis a elit et dolor laoreet volutpat. Aliquam ultrices mauris id mattis imperdiet. Aenean cursus ultrices justo et varius. Suspendisse aliquam orci id dui dapibus
-                      blandit. In hac habitasse platea dictumst. Sed risus velit, pellentesque eu enim ac, ultricies pretium felis.
-                    </p>
-                  </div>
-
-                </li>
-
-                <li>
-                  <a class="toggle" href="javascript:void(0);">Notifications
-                    <span class="toggle-icon">
-                      <?php echo file_get_contents("img/icons/form-down.svg"); ?>
-                    </span>
-                  </a>
-
-                  <div class="inner">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus placerat fringilla. Duis a elit et dolor laoreet volutpat. Aliquam ultrices mauris id mattis imperdiet. Aenean cursus ultrices justo et varius. Suspendisse aliquam orci id dui dapibus
-                      blandit. In hac habitasse platea dictumst. Sed risus velit, pellentesque eu enim ac, ultricies pretium felis.
-                    </p>
-                  </div>
-
-                </li>
-
-
-              </ul>
-
-            </div>
+            </nav>
           </div>
 
         </div>
-        <div class="nav-wrap">
-        <header class="app-header">
-          <div class="branding">
-            <div class="c-wrap">
-              <div class="page-title">
-                <a class="nav-trigger" href="#nogo">
-                <span class="inline-icon">
-                  <?php echo file_get_contents("img/icons/Logo.svg"); ?>
-                </span>
-                <span class="expand">
-                      <?php echo file_get_contents("img/icons/menu-expand.svg"); ?>
-                      </span>
-                <h1>HPE StoreEasy</h1>
-                <a class="close-button" href="#nogo">
-                      <span class="collapse">
-                      <?php echo file_get_contents("img/icons/menu-collapse.svg"); ?>
-                      </span>
-                </a>
-              </div>
+      </div>
+      <div class="secondary-header">
+        <ul class="secondary-nav">
+          <li>
+            <a href="#">
+              Dashboard
+            </a>
+          </li>
 
-            </div>
-            </div>
-        </header>
+          <li class="active">
+            <a href="#">
+              Inventory
+            </a>
+          </li>
 
-          <ul class="menu-list">
+          <li>
+            <a href="#">
+              Jobs
+            </a>
+          </li>
 
-            <li>
-              <a href="index.php" class="active">
-                <span class="inline-icon">
-                  <?php echo file_get_contents("img/icons/dashboard-2.svg"); ?>
-                </span>
-                <span class="menu-txt">
-                  Dashboard
-                </span>
-              </a>
+          <li>
+            <a href="#">
+              Reports
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Help
+            </a>
+          </li>
+
+
+        </ul>
+      </div>
+    </header>
+    <div class="page-content row">
+      <aside class="filterbar col">
+
+        <nav class="tertiary-nav">
+          <ul class="page-nav">
+            <li class="active">
+              <a href="#">VM</a>
             </li>
 
             <li>
-              <a href="fileshare.php">
-                <span class="inline-icon">
-                  <?php echo file_get_contents("img/icons/fileshare.svg"); ?>
-                </span>
-                <span class="menu-txt">
-                  File shares
-                </span>
-              </a>
+              <a href="#">Databases</a>
             </li>
 
             <li>
-              <a href="#">
-                <span class="inline-icon">
-                  <?php echo file_get_contents("img/icons/quota.svg"); ?>
-                </span>
-                <span class="menu-txt">
-                  Quotas
-                </span>
-              </a>
+              <a href="#">Protection</a>
             </li>
-
-            <li>
-              <a href="#">
-                <span class="inline-icon">
-                  <?php echo file_get_contents("img/icons/volume.svg"); ?>
-                </span>
-                <span class="menu-txt">
-                  Volume
-                </span>
-              </a>
-            </li>
-
-            <li>
-              <a href="#">
-                <span class="inline-icon">
-                  <?php echo file_get_contents("img/icons/settings.svg"); ?>
-                </span>
-                <span class="menu-txt">
-                  Settings
-                </span>
-              </a>
-            </li>
-
-            <li>
-              <a href="#">
-                <span class="inline-icon">
-                  <?php echo file_get_contents("img/icons/activity.svg"); ?>
-                </span>
-                <span class="menu-txt">
-                  Activity
-                </span>
-              </a>
-            </li>
-
-            <li>
-              <a href="#">
-                <span class="inline-icon">
-                  <?php echo file_get_contents("img/icons/help.svg"); ?>
-                </span>
-                <span class="menu-txt">
-                  Help
-                </span>
-              </a>
-            </li>
-
-
           </ul>
+        </nav>
+        <div class="filter-wrap sticky-sidebar">
+          <i class="trigger-close fa fa-close"></i>
 
-
-          <div class="secondary-nav">
-            <ul class="menu-list">
-
+          <div class="search-panel">
+            <div class="search-box">
+              <span class="search-title">Search</span>
+            </div>
+          </div>
+          <h3>Filters</h3>
+          <div class="accordion">
+            <h4>Protection Level</h4>
+            <ul class="check-list">
               <li>
-                <a href="#" class="open-olh-trigger">
-                  <span class="inline-icon">
-                    <?php echo file_get_contents("img/icons/page-help.svg"); ?>
-                  </span>
-                  <span class="menu-txt">
-                    Help on this page
-                  </span>
-                </a>
+                <span class="input-wrap">
+               
+                </span>
+                <span class="label">Local <em>5</em></span>
               </li>
 
-              <li class="user-menu">
-                <a href="#">
-                  <span class="inline-icon">
-                    <?php echo file_get_contents("img/icons/user.svg"); ?>
-                  </span>
-                  <div class="menu-txt">
-                    <span class="name">Takeshi Kitano </span>
-                    <span class="role">Administrator</span>
-                  </div>
-                </a>
+              <li>
+                <span class="input-wrap">
+               
+                </span>
+                <span class="label">Remote <em>4</em></span>
+              </li>
+
+              <li>
+                <span class="input-wrap">
+               
+                </span>
+                <span class="label">Not protected <em>3</em></span>
               </li>
 
 
             </ul>
           </div>
+
+          <div class="accordion">
+            <h4>Protection Level</h4>
+            <ul class="check-list">
+              <li>
+                <span class="input-wrap">
+               
+                </span>
+                <span class="label">Local <em>5</em></span>
+              </li>
+
+              <li>
+                <span class="input-wrap">
+               
+                </span>
+                <span class="label">Remote <em>4</em></span>
+              </li>
+
+              <li>
+                <span class="input-wrap">
+               
+                </span>
+                <span class="label">Not protected <em>3</em></span>
+              </li>
+
+
+            </ul>
+          </div>
+
+          <div class="accordion">
+            <h4>Protection Level</h4>
+            <ul class="check-list">
+              <li>
+                <span class="input-wrap">
+               
+                </span>
+                <span class="label">Local <em>5</em></span>
+              </li>
+
+              <li>
+                <span class="input-wrap">
+               
+                </span>
+                <span class="label">Remote <em>4</em></span>
+              </li>
+
+              <li>
+                <span class="input-wrap">
+               
+                </span>
+                <span class="label">Not protected <em>3</em></span>
+              </li>
+
+
+            </ul>
+          </div>
+
+           <div class="accordion">
+            <h4>Protection Level</h4>
+            <ul class="check-list">
+              <li>
+                <span class="input-wrap">
+               
+                </span>
+                <span class="label">Local <em>5</em></span>
+              </li>
+
+              <li>
+                <span class="input-wrap">
+               
+                </span>
+                <span class="label">Remote <em>4</em></span>
+              </li>
+
+              <li>
+                <span class="input-wrap">
+               
+                </span>
+                <span class="label">Not protected <em>3</em></span>
+              </li>
+
+
+            </ul>
+          </div>
+
+           <div class="accordion">
+            <h4>Protection Level</h4>
+            <ul class="check-list">
+              <li>
+                <span class="input-wrap">
+               
+                </span>
+                <span class="label">Local <em>5</em></span>
+              </li>
+
+              <li>
+                <span class="input-wrap">
+               
+                </span>
+                <span class="label">Remote <em>4</em></span>
+              </li>
+
+              <li>
+                <span class="input-wrap">
+               
+                </span>
+                <span class="label">Not protected <em>3</em></span>
+              </li>
+
+
+            </ul>
+          </div>
+
+           <div class="accordion">
+            <h4>Protection Level</h4>
+            <ul class="check-list">
+              <li>
+                <span class="input-wrap">
+               
+                </span>
+                <span class="label">Local <em>5</em></span>
+              </li>
+
+              <li>
+                <span class="input-wrap">
+               
+                </span>
+                <span class="label">Remote <em>4</em></span>
+              </li>
+
+              <li>
+                <span class="input-wrap">
+               
+                </span>
+                <span class="label">Not protected <em>3</em></span>
+              </li>
+
+
+            </ul>
+          </div>
+
+           <div class="accordion">
+            <h4>Protection Level</h4>
+            <ul class="check-list">
+              <li>
+                <span class="input-wrap">
+               
+                </span>
+                <span class="label">Local <em>5</em></span>
+              </li>
+
+              <li>
+                <span class="input-wrap">
+               
+                </span>
+                <span class="label">Remote <em>4</em></span>
+              </li>
+
+              <li>
+                <span class="input-wrap">
+               
+                </span>
+                <span class="label">Not protected <em>3</em></span>
+              </li>
+
+
+            </ul>
           </div>
         </div>
+      </aside>
 
-        <main class="page">
-          <div class="wrap main-content">
-            <header class="app-header">
-              <div class="c-wrap">
-                <div class="row">
-                  <div class="col-6 page-title">
-                   <span class="inline-icon page-logo">
-                    <?php echo file_get_contents("img/icons/Logo.svg"); ?>
-                  </span>
-                    <h1>Dashboard</h1>
-                  </div>
-                  <div class="page-actions col-6">
-                    <ul class="action-triggers">
-                      <li class="search-form">
-                        <form>
-                          <input type="text" name="search" id="globalSearch" placeholder="What would you like to do?">
-                          <button>
-                            <span class="inline-icon">
-                              <?php echo file_get_contents("img/icons/search.svg"); ?>
-                            </span>
-                          </button>
-                        </form>
-                        <div class="search-actions">
-                          <ul class="search-suggestion">
+      <main class="main-page col">
+        <header class="content-header">
+          <h1>VM</h1>
+        </header>
+        <div class="main-page-wrap">
+        
+          <section class="summary">
+            summary
+          </section>
+          <section class="listing">
+            <div class="listing-header">
+              <div class="row">
+                <div class="col-6">
+                  <i class="fa icon-button fa-plus"></i>
 
-                            <li>
-                              <a href="#">
-                              <h4>Capacity usage</h4>
-                              <p>Some description of the page. Lorem ipsum dolar sit amet...</p>
-                              <span class="inline-icon">
-                                <?php echo file_get_contents("img/icons/next.svg"); ?>
-                              </span>
-                              </a>
-                            </li>
-
-                            <li>
-                              <a href="#">
-                              <h4>Usage limit</h4>
-                              <p>Some description of the page. Lorem ipsum dolar sit amet...</p>
-                              <span class="inline-icon">
-                                <?php echo file_get_contents("img/icons/next.svg"); ?>
-                              </span>
-                              </a>
-                            </li>
-
-
-                            <li>
-                              <a href="#">
-                              <h4>Capacity usage</h4>
-                              <p>Some description of the page. Lorem ipsum dolar sit amet...</p>
-                              <span class="inline-icon">
-                                <?php echo file_get_contents("img/icons/next.svg"); ?>
-                              </span>
-                              </a>
-                            </li>
-
-                            <li>
-                              <a href="#">
-                              <h4>Usage limit</h4>
-                              <p>Some description of the page. Lorem ipsum dolar sit amet...</p>
-                              <span class="inline-icon">
-                                <?php echo file_get_contents("img/icons/next.svg"); ?>
-                              </span>
-                              </a>
-                            </li>
-
-
-                            <li class="help-suggestion">
-                              <a href="#" class="open-olh-trigger">
-                              <h4>In-page help - Storage utilization</h4>
-                              <p>Some description of the page. Lorem ipsum dolar sit amet...</p>
-                              <span class="inline-icon">
-                                <?php echo file_get_contents("img/icons/page-help.svg"); ?>
-                              </span>
-                              </a>
-                            </li>
-
-                          </ul>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
+                  <i class="fa icon-button fa-pencil"></i>
+                  <i class="fa icon-button fa-close"></i>
+                  <i class="fa icon-button fa-copy"></i>
                 </div>
-              </div>
-            </header>
-            <section class="content-section">
-              <div class="content-wrap">
-
+                <div class="col-6 search-wrap">
+                  <div class="search-field">
+                    <span class="search-icon">
+                      <i class="fa fa-search"></i>
+                    </span>
+                      <i class="filter trigger-filter fa fa-filter"></i>
+                  </div>
                 
-
-
-                <!--dashboard-content-->
-                <div class="center-aligned card-block">
-                  <div class="grid">
-                  <div class="grid-item card-item clearfix healthy-card">
-                    <div class="card-wrap align-center">
-                      <div class="card-header">
-                        <h3>
-                          Your system
-                        </h3>
-                      </div>
-
-                      <div class="card-content">
-                        
-                          
-
-
-                          <div class="device-info">
-                          <div class="device-img">
-                            <img src="img/product-img.png">
-                            
-                          </div>
-                          <div class="device-title">
-                            HPE StoreEasy 1000 Storage
-                            <span class="device-serial">
-                              Serial : XYSZ123K7
-                            </span>
-                          </div>
-
-                        </div>
-                        <div class="system-info clearfix">
-
-                              <div class="system-status">
-                                <div class="status-icons">
-                                  <span class="inline-icon">
-                                    <?php echo file_get_contents("img/system.svg"); ?>
-                                  </span>
-                                  <span class="health-status healthy">
-                                    <?php echo file_get_contents("img/icons/okay-o.svg"); ?>
-                                  </span>
-
-                                </div>
-                                
-                                <span class="status-label ok">
-                                 <strong>Healthy</strong>
-                               </span>
-                               <span class="status-title">
-                                  System status
-                                </span>
-
-                             </div>
-
-
-                             <div class="system-status">
-                                <div class="status-icons">
-                                  <span class="status-value">
-                                    6
-                                  </span>
-                                 
-
-                                </div>
-                                
-                                <span class="status-label">
-                                 <strong>Nodes</strong>
-                               </span>
-
-                               <span class="status-title">
-                                  in this cluster
-                                </span>
-
-                             </div>
-
-
-
-
-
-
-                           
-                          </div>
-
-
-
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="grid-item card-item">
-                    <div class="card-wrap align-center">
-                      <div class="card-header">
-                        <h3>
-                          Storage utilization
-                        </h3>
-                      </div>
-
-                      <div class="card-content">
-                        <div class="call-out-txt">
-                          <span class="large">
-                            386
-                          </span>
-                          <span class="label-txt">
-                            days to <br />
-                            saturation
-                          </span>
-                        </div>
-
-                        <div class="card-chart">
-                          <?php echo file_get_contents("img/chart-storage.svg"); ?>
-                        </div>
-
-                        
-                      </div>
-
-                      <div class="card-bottom">
-                          <button class="primary button" href="#">
-                            View report
-                          </button>
-                        </div>
-                    </div>
-                  </div>
-
-                   
-
-
-
-                  <div class="grid-item card-item">
-                    <div class="card-wrap align-center">
-                      <div class="card-header">
-                        <h3>
-                          Performance
-                        </h3>
-                      </div>
-
-                      <div class="card-content">
-                        <div class="call-out-txt">
-                          <span class="large">
-                            230
-                          </span>
-                          <span class="label-txt">
-                            active <br />
-                            users
-                          </span>
-                        </div>
-
-                         <ul class="status-list fix-width">
-                          <li>
-                            <div class="status-icons">
-                                <span class="inline-icon">
-                                  <?php echo file_get_contents("img/icon-write.svg"); ?>
-                                </span>
-                              </div>
-
-                                 <span class="item-label">
-                                  Write speed
-                                </span>
-                                <span class="status-label">
-                                  <strong>40</strong>
-                                  MiB/s
-                                </span>
-                          </li>
-
-
-                          <li>
-                            <div class="status-icons">
-                                <span class="inline-icon">
-                                  <?php echo file_get_contents("img/icon-read.svg"); ?>
-                                </span>
-                              </div>
-
-                                 <span class="item-label">
-                                  Read speed
-                                </span>
-                                <span class="status-label">
-                                  <strong>27</strong>
-                                  MiB/s
-                                </span>
-                          </li>
-
-
-                          <li>
-                            <div class="status-icons">
-                                <span class="inline-icon">
-                                  <?php echo file_get_contents("img/icon-iops.svg"); ?>
-                                </span>
-                              </div>
-
-                                 <span class="item-label">
-                                  IOPS
-                                </span>
-                                <span class="status-label">
-                                  <strong>230</strong>
-                                  IOP/s
-                                </span>
-                          </li>
-                        </ul>
-                      </div>
-                       <div class="card-bottom">
-                          <button class="primary button" href="#">
-                            View report
-                          </button>
-                        </div>
-                    </div>
-                  </div>
-
-
-                  
-
-
-                  <div class="grid-item card-item">
-                    <div class="card-wrap align-center">
-                      <div class="card-header">
-                        <h3>
-                          Activity
-                        </h3>
-                      </div>
-                      <div class="card-content">
-                        <ul class="card-activity-list">
-
-                          <li class="current-activity">
-                            <a href="#">
-                              <div class="list-col">
-                                <span class="state-icon active"></span>
-                                Creating a volume
-                              </div>
-                              <div class="list-col">
-                                <span class="progress">
-                                  <i class="progress-bar"></i>
-                                </span>
-                                <span class="hide-this">
-                                  Just now
-                                </span>
-                              </div>
-                            </a>
-                          </li>
-
-                          <li>
-                            <a href="#">
-                              <div class="list-col">
-                                <span class="state-icon healthy"></span>
-                                A file share created
-                              </div>
-                              <div class="list-col">
-                                10:20 am
-                              </div>
-                            </a>
-                          </li>
-
-                          <li>
-                            <a href="#">
-                              <div class="list-col">
-                                <span class="state-icon critical"></span>
-                                System restarted
-                              </div>
-                              <div class="list-col">
-                                10:20 am
-                              </div>
-                            </a>
-                          </li>
-
-                          <li>
-                            <a href="#">
-                              <div class="list-col">
-                                <span class="state-icon warning"></span>
-                                System status chagned
-                              </div>
-                              <div class="list-col">
-                                10:20 am
-                              </div>
-                            </a>
-                          </li>
-
-                          <li>
-                            <a href="#">
-                              <div class="list-col">
-                                <span class="state-icon healthy"></span>
-                                File share created
-                              </div>
-                              <div class="list-col">
-                                10:20 am
-                              </div>
-                            </a>
-                          </li>
-
-                          <li>
-                            <a href="#">
-                              <div class="list-col">
-                                <span class="state-icon critical"></span>
-                                Could not create the file share
-                              </div>
-                              <div class="list-col">
-                                10:20 am
-                              </div>
-                            </a>
-                          </li>
-
-                        </ul>
-
-                      </div>
-
-                      <div class="card-bottom">
-                          <button class="secondary button">
-                            View all
-                          </button>
-                        </div>
-
-                    </div>
-                  </div>
-
-
-                  <div class="grid-item card-item">
-                    <div class="card-wrap align-center">
-                      <div class="card-header">
-                        <h3>
-                          Some heading
-                        </h3>
-                      </div>
-                      <div class="card-content">
-                        <ul class="quick-action-buttons">
-                          <li>
-                            <a href="#">
-                               <span class="action-label">
-                                Create file share
-                              </span>
-
-                              <span class="inline-icon">
-                              <?php echo file_get_contents("img/icons/fileshare.svg"); ?>
-                              </span>
-                             
-                            </a>
-                          </li>
-
-                          <li>
-                            <a href="#">
-                              <span class="action-label">
-                                Create volume
-                              </span>
-                              <span class="inline-icon">
-                              <?php echo file_get_contents("img/icons/volume.svg"); ?>
-                              </span>
-                              
-                            </a>
-                          </li>
-
-                          <li>
-                            <a href="#">
-                              <span class="action-label">
-                                Manage settings
-                              </span>
-                              <span class="inline-icon">
-                              <?php echo file_get_contents("img/icons/settings.svg"); ?>
-                              </span>
-                              
-                            </a>
-                          </li>
-
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="grid-item card-item">
-                    <div class="card-wrap align-center">
-                      <div class="card-header">
-                        <h3>
-                          Performance
-                        </h3>
-                      </div>
-                      <div class="card-content">
-                        content
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="grid-item card-item">
-                    <div class="card-wrap align-center">
-                      <div class="card-header">
-                        <h3>
-                          Performance
-                        </h3>
-                      </div>
-                      <div class="card-content">
-                        content
-                      </div>
-                    </div>
-                  </div>
-                  </div>
                 </div>
-                <!--/dashboard-content-->
+               
               </div>
-            </section>
+            </div>
+             <div class="grid-wrapper">
+           <div class="card grid-col-2">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Server Health Status</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+
+           <div class="card">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card B</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+
+           <div class="card grid-row-2">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card C</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+
+           <div class="card">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card D</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+
+           <div class="card">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card E</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+
+           <div class="card">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card F</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+
+           <div class="card">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card G</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+
+           <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+            <div class="card order-mobile-1">
+             <div class="card-wrap">
+               <div class="card-header">
+                 <h2>Card H</h2>
+                 <a href="#" class="more-icon">
+                   <span class="dot"></span>
+                 </a>
+               </div>
+
+               <div class="card-content">
+                 content
+               </div>
+
+               <div class="card-footer">
+                 footer
+               </div>
+             </div>
+           </div>
+         </div>
+          </section>
           </div>
-        </main>
+      </main>
+      
+    </div>
+    <div class="page-footer">
+      footer
     </div>
   </div>
 
-  <div class="layer notification-layer info delayed-notif closed">
-    <div class="layer-box">
-      <a class="close-button" href="#nogo">
-        <?php echo file_get_contents("img/icons/close.svg"); ?>
-      </a>
-    <div class="layer-wrap row">
-      <div class="layer-icon col-1">
-        <span class="icon-holder">
-           <?php echo file_get_contents("img/icons/upgrade.svg"); ?>
-        </span>
-      </div>
-      <div class="layer-content col-7">
-        <p>
-          A new version of management console update is ready to install.
-          <span class="secondary-line">Version 1.1.2.3</span>
-        </p>
-      </div>
-      <div class="layer-action col-4">
-        <a class="button small-button primary" href="#">
-          Install update
-        </a>
+  <section class="overlay">
+    <div class="sidepanel">
+      <div class="sidepanel-wrap">
+        <div class="sidepanel-header">
+          <h2>Add Systems</h2>
+        </div>
+        <div class="sidepanel-content">
+            <p class="help-txt">
+                  Add DNS names or IP addresses. Append the port if the standard port is not used.  Use commas for multiple entries.
+                </p>
+          <div class="system-list-input">
+            <div id="tags">
+              <div class="field">
+                
+                <label for="system">System DNS name or IP address</label>
+                <input type="text" value="" placeholder="" id="system" />
+
+
+                <div class="info-block">
+                  Examples: 
+storeserve.example.com, 192.0.1, 192.0.2.2:1234, 2001:db8:3c4d:0015:0000:0000:1a2f:1a2b
+                </div>
+            
+              
+                </div>
+            </div>
+
+            <div class="fieldset">
+              <h3>Group systems</h3>
+
+               <p class="help-txt">
+                Grouping systems help you organize and manage your systems efficiently
+              </p>
+
+
+               <div class="field">
+                  <label for="group">Add systems to groups</label>
+
+                  <div class="fancy-select">
+                    <div class="select-field">
+                      <span class="txt">3 Groups Selected</span>
+                      <span class="icon"><i class="fa fa-angle-down"></i></span>
+                    </div>
+
+                  </div>
+               
+                </div>
+            </div>
+
+
+
+
+            <div class="fieldset">
+              <h3>Login</h3>
+              <p class="help-txt">
+                The user credential must have Browse, Edit or Super User privileges with access to all domains 
+              </p>
+               <div class="field">
+                  <label for="username">User Name</label>
+                  <input type="text" class="fieldbox" name="username" id="username" placeholder="User Name">
+                 
+                </div>
+
+
+                  <div class="field">
+                  <label for="password">Password</label>
+                  <input type="password" class="fieldbox" name="password" id="password" placeholder="password">
+                 
+                </div>
+
+            </div>
+
+
+
+          </div>
+        </div>
+        <div class="sidepanel-footer">
+          <button class="secondary">
+            Add Systems
+          </button>
+
+          <button class="primary">
+            Add (+)
+          </button>
+          <button class="tertiary">
+            Cancel
+          </button>
+        </div>
+
       </div>
     </div>
-    </div>
-  </div>
-
-    <div class="mobile-nav">
-      <ul class="mobile-menu">
-        <li class="active">
-          <a href="#">
-            <span class="btm-icon">
-              <?php echo file_get_contents("img/icons/dashboard-2.svg"); ?>
-            </span>
-            <span class="lbl-txt">
-              Dashboard
-            </span>
-          </a>
-        </li>
-
-        <li>
-          <a href="#">
-            <span class="btm-icon">
-              <?php echo file_get_contents("img/icons/fileshare.svg"); ?>
-            </span>
-            <span class="lbl-txt">
-              File shares
-            </span>
-          </a>
-        </li>
-
-        <li>
-          <a href="#">
-            <span class="btm-icon">
-              <?php echo file_get_contents("img/icons/search.svg"); ?>
-            </span>
-            <span class="lbl-txt">
-              Search
-            </span>
-          </a>
-        </li>
-
-
-        <li>
-          <a href="#">
-            <span class="btm-icon">
-              <?php echo file_get_contents("img/icons/menu.svg"); ?>
-            </span>
-            <span class="lbl-txt">
-              Menu
-            </span>
-          </a>
-        </li>
-
-
-      </ul>
-    </div>
-
-  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+  </section>
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
+  <script src="js/sticky-kit.min.js"></script>
   <script src="js/main.js"></script>
 
-   
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>

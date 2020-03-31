@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
-    <title>brush</title>
-    <desc>Created with Sketch.</desc>
-    <g id="brush" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M10.4350288,13.8510725 L10.4350288,-0.564864977 C10.4350288,-1.66949312 11.3227585,-2.56497116 12.4350288,-2.56497116 C13.5395983,-2.56497116 14.4350288,-1.67491274 14.4350288,-0.564864977 L14.4350288,13.8510725 C16.2009336,14.6226292 17.4350288,16.3847098 17.4350288,18.4350288 C17.4350288,21.1964526 12.4350288,25.4350288 12.4350288,25.4350288 C12.4350288,25.4350288 7.43502884,21.1964526 7.43502884,18.4350288 C7.43502884,16.3847098 8.66912406,14.6226292 10.4350288,13.8510725 Z M10,12 L12.6000977,12 L15,12" id="Brush" stroke="#000000" stroke-width="2" transform="translate(12.435029, 11.435029) rotate(45.000000) translate(-12.435029, -11.435029) "></path>
-    </g>
-</svg>
