@@ -1312,6 +1312,7 @@ table.simple-table.lined-table tbody td {
 
 #tags .field {
   position: relative;
+  margin-bottom: 24px;
 }
 
 #tags .field input {
