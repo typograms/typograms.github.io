@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="101px" height="100px" viewBox="0 0 101 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>donut chart</title>
+    <desc>Created with Sketch.</desc>
+    <g id="grid" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy" transform="translate(-52.000000, -513.000000)">
+            <g id="Card_donutChart-t2-Copy-2" transform="translate(16.000000, 448.000000)">
+                <g id="donut-chart" transform="translate(36.000000, 65.000000)">
+                    <circle id="Oval" stroke="#CCCCCC" stroke-width="10" cx="50.8161089" cy="50" r="45"></circle>
+                    <path d="M50.6516582,0 L50.6516582,10 L50.6516582,10 C39.3601716,10 29.1614359,14.6786229 21.888284,22.2030358 L14.8152919,15.1322817 C23.8988861,5.79793444 36.598182,0 50.6516582,0 Z" id="donut-segment" fill="#333333"></path>
+                    <path d="M29.8355493,20.8161089 L29.8355493,30.8161089 L29.8355493,30.8161089 C18.5440627,30.8161089 8.345327,35.4947318 1.0721751,43.0191447 L-6.00081703,35.9483906 C3.08277718,26.6140433 15.7820731,20.8161089 29.8355493,20.8161089 Z" id="donut-segment" fill="#999999" transform="translate(11.917775, 31.917775) scale(-1, 1) rotate(90.000000) translate(-11.917775, -31.917775) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
